@@ -8,9 +8,12 @@ Want to try it yourself? Easy.
 
 Step 1:
 Install NASM and QEMU.
+
 Step 2:
 Clone This Repo
+
 Step 3:
 nasm -f bin boot.asm -o boot.bin
+
 Step 4:
 qemu-system-x86_64 boot.bin
