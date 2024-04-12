@@ -14,4 +14,3 @@ Step 3:
 nasm -f bin boot.asm -o boot.bin
 Step 4:
 qemu-system-x86_64 boot.bin
-
